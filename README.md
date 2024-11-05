@@ -44,6 +44,8 @@ This plugin is part of the **Secure Updates Foundation** suite, empowering devel
 >
 > The **Secure Updates Library** is targeted at **plugin authors** who wish to distribute updates directly to their users. This lightweight library can be integrated into any plugin to enable updates from a self-hosted **Secure Updates Server**, providing plugin authors with full control over version distribution, making third-party repositories optional.
 
+![API Keys Settings Screenshot](images/Media_Library.png)
+
 ## Features
 
 - **API Key Integration**: Securely authenticate client requests using API keys, ensuring that only authorized clients can access plugin updates.

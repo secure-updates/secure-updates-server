@@ -121,28 +121,28 @@ if (!class_exists('Secure_Updates_Server')) {
         public function register_rest_routes()
         {
             // Existing Download Endpoint
-            register_rest_route('plugin-server/v1', '/download/(?P<slug>[a-zA-Z0-9-]+)', [
+            register_rest_route('secure-updates-server/v1', '/download/(?P<slug>[a-zA-Z0-9-]+)', [
                 'methods' => 'GET',
                 'callback' => [$this, 'handle_download_request'],
                 'permission_callback' => '__return_true',
             ]);
 
             // Existing Info Endpoint
-            register_rest_route('plugin-server/v1', '/info/(?P<slug>[a-zA-Z0-9-]+)', [
+            register_rest_route('secure-updates-server/v1', '/info/(?P<slug>[a-zA-Z0-9-]+)', [
                 'methods' => 'GET',
                 'callback' => [$this, 'handle_info_request'],
                 'permission_callback' => '__return_true',
             ]);
 
             // Existing Connected Endpoint
-            register_rest_route('plugin-server/v1', '/connected', [
+            register_rest_route('secure-updates-server/v1', '/connected', [
                 'methods' => 'GET',
                 'callback' => [$this, 'handle_connected_request'],
                 'permission_callback' => '__return_true',
             ]);
 
             // Existing Verify File Endpoint
-            register_rest_route('plugin-server/v1', '/verify_file/(?P<slug>[a-zA-Z0-9-]+)', [
+            register_rest_route('secure-updates-server/v1', '/verify_file/(?P<slug>[a-zA-Z0-9-]+)', [
                 'methods' => 'GET',
                 'callback' => [$this, 'handle_verify_file_request'],
                 'permission_callback' => '__return_true',
@@ -222,7 +222,7 @@ if (!class_exists('Secure_Updates_Server')) {
                     'version' => $secure_updates_plugins[$plugin_slug]['latest_version'],
                     'author' => 'Your Name',
                     'homepage' => home_url(),
-                    'download_link' => rest_url('plugin-server/v1/download/' . $plugin_slug),
+                    'download_link' => rest_url('secure-updates-server/v1/download/' . $plugin_slug),
                     'sections' => [
                         'description' => __('Plugin description here.', 'secure-updates-server'),
                         'installation' => __('Installation instructions here.', 'secure-updates-server'),

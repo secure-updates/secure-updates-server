@@ -38,7 +38,7 @@ This plugin is part of the **Secure Updates Foundation** suite, empowering devel
 
 > ### **Secure Updates Client**
 >
-> The **Secure Updates Client** plugin is designed for **client sites** managed by web hosts or providers offering managed WordPress services. It allows these sites to receive plugin updates directly from a designated **Secure Updates Server**, bypassing centralized repositories like WordPress.org. This setup provides increased security and control, making it ideal for environments that require stability and custom update policies.
+> The **[Secure Updates Client](https://github.com/secure-updates/secure-updates-client)** plugin is designed for **client sites** managed by web hosts or providers offering managed WordPress services. It allows these sites to receive plugin updates directly from a designated **Secure Updates Server**, bypassing centralized repositories like WordPress.org. This setup provides increased security and control, making it ideal for environments that require stability and custom update policies.
 
 > ### **Secure Updates Library**
 >

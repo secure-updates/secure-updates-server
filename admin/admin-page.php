@@ -122,7 +122,7 @@ $message = isset($_GET['message']) ? sanitize_text_field($_GET['message']) : '';
                     <td>
                         <?php
                         // Generate the REST API verify_file URL for the plugin
-                        $verify_api_url = rest_url('plugin-server/v1/verify_file/' . $plugin_slug);
+                        $verify_api_url = rest_url('secure-updates-server/v1/verify_file/' . $plugin_slug);
                         ?>
                         <a href="<?php echo esc_url($verify_api_url); ?>" target="_blank" rel="noopener noreferrer">
                             <?php esc_html_e('Hosted Plugin', 'secure-updates-server'); ?>

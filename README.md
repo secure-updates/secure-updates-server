@@ -34,6 +34,10 @@ This plugin is in active development and while it's feature-complete and follows
 - **Checksum Verification**: File integrity verification
 - **Enhanced Security Measures**: Comprehensive security features
 
+![Mirrored / uploaded plugins stored in media library](images/Media_Library.png)
+
+
+
 ## Installation
 
 1. **Download the Plugin:**
@@ -61,6 +65,9 @@ For detailed installation and configuration instructions, see [INSTALL.md](INSTA
 
 - **[Secure Updates Client](https://github.com/secure-updates/secure-updates-client)**: Plugin for client sites
 - **[Secure Updates Library](https://github.com/secure-updates/secure-updates-library)**: Integration library for plugin authors
+
+![API Keys Management](images/API_Keys.png)
+
 
 ## Requirements
 
